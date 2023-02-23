@@ -7,7 +7,7 @@ Desafio feito junto com a Rockseat, junto com o @maykbrito
 
 <br>
 
-<a href="https://github.com/raynnenogueira/boracodar/blob/main/01" target="_blank">Visite aqui o projeto</a>
+<a href="" target="_blank">Visite aqui o projeto</a>
 
 <br>
 
