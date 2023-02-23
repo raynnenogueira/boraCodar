@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title>Chat</title>
+</head>
+<body>
+    
+    <div id="app">
+        <div id="top">
+            <div id="user-info">
+                <img src="woman.jpg" alt="">
+                <div id="user-status">
+                    <strong>Talita Nogueira</strong>
+                    <div class="status">
+                        Online
+                    </div>
+                </div>
+            </div>
+            
+            <div id="close-chat">
+                <i class="ph-x-fill"></i>
+            </div>
+        </div>
+
+        <div id="messages">
+            <div id="last-seen">Hoje 14:30</div>
+            <div class="messages">
+                <div class="message">
+                    <div class="name">Talita - 14:30</div>
+                    <div class="body">Tive uma ideia incrível para um projeto! 😍</div>
+                </div>
+                <div class="message you">
+                    <div class="name">Você - 14:31</div>
+                    <div class="body">Sério? Me conta mais.</div>
+                </div>
+                <div class="message">
+                    <div class="name">Talita - 14:31</div>
+                    <div class="body">E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</div>
+                </div>
+                <div class="message you">
+                    <div class="name">Você - 14:32</div>
+                    <div class="body"><strong>#boraCodar! 🚀</strong>
+                </div>
+            </div>
+        </div>
+
+        <form id="bottom">
+            <input type="text" placeholder="Digite sua mensagem">
+            <button>
+                <i class="ph-paper-plane-right-fill"></i>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
