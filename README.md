@@ -16,7 +16,7 @@
                 <img width="300" height="1"> 
                 <p> 
                     <small>
-                        NAME
+                        NOME
                     </small>
                 </p>
             </th>
@@ -24,7 +24,7 @@
                 <img width="201" height="1">
                 <p align="center"> 
                     <small>
-                    PREVIEW
+                    PRE VISUALIZAÇÃO
                     </small>
                 </p>
             </th>
