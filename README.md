@@ -40,27 +40,32 @@
         <tr>
             <td>02</td>
             <td><a href="02">Card de Produto</a></td>
-            <td align="center"><a href="02"><img width="300px" src="./cardeproduto/.github/cardproduto.png" /></a></td>
+            <td align="center">
+            <a href="02"><img width="300px" src="./cardeproduto/.github/cardproduto.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
             <td><a href="03">Chat</a></td>
-            <td align="center"><a href="03"><img width="300px" src="./chat/.github/chat.png" /></a></td>
+            <td align="center">
+            <a href="03"><img width="300px" src="./chat/.github/chat.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
             <td><a href="04">Calculadora</a></td>
-            <td align="center"><a href="04"><img width="300px" src="./calculadora/.github/calculadora.png" /></a></td>
+            <td align="center">
+            <a href="04"><img width="300px" src="./calculadora/.github/calculadora.png" /></a></td>
         </tr>
         <tr>
             <td>05</td>
             <td><a href="05">Cartão de embarque</a></td>
-            <td align="center" ><a href="05"><img width="300px" src="./cartao-de-embaque/.github/cartao-de-embarque.png" /></a></td>
+            <td align="center" >
+            <a href="05"><img width="300px" src="./cartao-de-embaque/.github/cartao-de-embarque.png" /></a></td>
         </tr>
         <tr>
             <td>06</td>
             <td><a href="07">Site para encontrar seu bloco no carnaval</a></td>
-            <td align="center" ><a href="06"><img width="300px" src="./site-carnaval/.github/carnaval.png" /></a></td>
+            <td align="center" >
+            <a href="06"><img width="300px" src="./site-carnaval/.github/carnaval.png" /></a></td>
         </tr>
     </tbody>
 </table></p>
