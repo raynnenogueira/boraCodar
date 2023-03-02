@@ -63,9 +63,9 @@
         </tr>
         <tr>
             <td>06</td>
-            <td><a href="07">Site para encontrar seu bloco no carnaval</a></td>
+            <td><a href="06">Site para encontrar seu bloco no carnaval</a></td>
             <td align="center" >
-            <a href="06"><img width="300px" src="./site-carnaval/.github/carnaval.png" /></a></td>
+            <a href="06"><img width="300px" src="./site-carnaval/.github/site-carnaval.png" /></a></td>
         </tr>
     </tbody>
 </table></p>
