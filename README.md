@@ -57,7 +57,7 @@
         </tr>
         <tr>
             <td>05</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/05">Cartão de embarque</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cartao-de-embarque">Cartão de embarque</a></td>
             <td align="center" >
             <a href="05"><img width="300px" src="./cartao-de-embaque/.github/cartao-de-embarque.png" /></a></td>
         </tr>
