@@ -33,25 +33,25 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/blob/main/01">Player de Musica</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/playerdemusica">Player de Musica</a></td>
             <td align="center">
             <a href="01"><img width="300px" src="./playerdemusica/.github/playerdemusica.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/blob/main/02">Card de Produto</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cardproduto">Card de Produto</a></td>
             <td align="center">
             <a href="02"><img width="300px" src="./cardeproduto/.github/cardproduto.png" /></a></td>
         </tr>
         <tr>
             <td>03</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/blob/main/03">Chat</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/chat">Chat</a></td>
             <td align="center">
             <a href="03"><img width="300px" src="./chat/.github/chat.png" /></a></td>
         </tr>
         <tr>
             <td>04</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/blob/main/04">Calculadora</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/calculadora">Calculadora</a></td>
             <td align="center">
             <a href="04"><img width="300px" src="./calculadora/.github/calculadora.png" /></a></td>
         </tr>
