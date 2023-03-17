@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Inter';
+    height: 100%;
+    width: 100%;
+    background-color: #292738;
+}
+
+.grid {
+    display: grid;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    padding: 2.9rem 4.8rem;
+    background: #363447;
+    box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.6rem;
+    color: white;
+    line-height: 160%;
+    gap: 3.2rem;
+}
+
+#app {
+    column-gap: 3.2rem;  /* entre colunas eu tenho um espaço */
+    row-gap: 5.9rem; /*  entre linhas eu tenho um espaço */
+    width: fit-content;
+    height: fit-content;
+    min-height: 100vh;
+    margin: auto;
+    padding: 11.2rem 12.3rem;
+    place-content: center;
+    padding: 3.2rem;
+}
+
+.top {
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.middle {
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.bottom {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.bottom .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottom .item span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.bottom .item span {
+    --bg-color: #4A4556;
+}
+
+.bottom .item span:nth-child(1)::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background: var(--bg-color);
+    border-radius: 999px;
+}
+
+.nps {
+    gap: 3.2rem;
+}
+
+.nps .middle {
+    height: 19.7rem;
+    place-content: center; /* coloque o conteudo ao centro */
+    justify-items: center;
+    gap: 1.6rem; /* espaço entre o emoji e o texto */
+    color: #81FBB8;
+}
+
+.nps .bottom {
+    gap: 1rem;
+} 
+
+.border {
+    gap: 3.2rem;
+}
+
+.border .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.border .left {
+    gap: 3.2rem;
+    grid-auto-flow: column;
+}
+
+.border .left, .border .graphic {
+    flex: 1; /* tentar ocupar o mesmo espaço */
+}
+
+.left .grid {
+    gap: .8rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.left .grid span {
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    gap: .4rem;
+}
+
+.left .grid span::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.left .most-sell span::before {
+    background: linear-gradient(180deg, #81F888 0%, #28C76F 100%);
+}
+
+.left .less-sell span::before {
+    background: linear-gradient(180deg, #EA5455 0%, #FEB692 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0); /* inverter o triangulo */
+}
+
+.bars {
+    display: flex;
+    gap: calc(3vw + 1rem);
+    align-items: flex-end; /* começar la embaixo */
+    position: relative;
+}
+
+.bars::before {
+    content: "";
+    display: block;
+    height: .3rem;
+    width: 100%;
+    background: #4A4556;
+    border-radius: 999px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.bar-wrapper {
+    display: grid;
+    grid-template-rows: 15.9rem 1.6rem;
+    justify-items: center;
+    gap: .5rem; /* espaço entre a barrinha e o nome */
+    z-index: 1;
+}
+
+.bar {
+    width: 1.5rem;
+    background: linear-gradient(180deg, #eaeaea 0%, #0dd9e3 100%);
+    border-radius: 999px;
+    height: var(--height);
+    align-self: end; /* começa la de baixo e vai pra cima */
+    animation: up 1.6s;
+}
+
+/* velocidade da barrinha do grafico */
+@keyframes up {
+    0% {
+        height: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #app {
+        /* grid-template-columns: max-content max-content max-content;  pegar o maximo de conteudo  */
+        grid-template-columns: 29.6rem max-content max-content;
+        grid-template-rows: max-content;
+    }
+    
+    .box:nth-child(4) {
+        /* grid-column-start: 1;  começa na coluna 1 
+        grid-column-end: 4; termina na coluna 4  */
+        grid-column: 1/4; /* começa na coluna 1 e termina na coluna 4 */
+    }
+
+    .border .wrapper {
+        flex-direction: row;
+    }
+    
+    .border .left {
+        gap: 3.2rem;
+        grid-auto-flow: initial;
+    }   
+    
+    .bars {
+        gap: 5.9rem;
+    }
+}
+
