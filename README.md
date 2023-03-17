@@ -67,5 +67,11 @@
             <td align="center" >
             <a href="06"><img width="300px" src="./site-carnaval/.github/site-carnaval.png" /></a></td>
         </tr>
+            <tr>
+            <td>07</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/dashboard">Dashboard</a></td>
+            <td align="center" >
+            <a href="06"><img width="300px" src="./dashboard/.github/dashboard.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
