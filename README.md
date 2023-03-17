@@ -35,7 +35,7 @@
             <td>01</td>
             <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/playerdemusica">Player de Musica</a></td>
             <td align="center">
-            <a href="./.github/playerdemusica.png"><img width="300px" src="./playerdemusica/.github/playerdemusica.png" /></a></td>
+            <a href="./playerdemusica/.github/playerdemusica.png"><img width="300px" src="./playerdemusica/.github/playerdemusica.png" /></a></td>
         </tr>
         <tr>
             <td>02</td>
