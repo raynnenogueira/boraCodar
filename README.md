@@ -77,7 +77,7 @@
             <td>08</td>
             <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/conversor-de-moedas">Conversor de Moedas</a></td>
             <td align="center" >
-            <a href="./conversor-de-moeda/.github/conversor-de-moedas.jpg"><img width="300px" src="./conversor-de-moeda/.github/conversor-de-moedas.jpg" /></a></td>
+            <a href="07"><img width="300px" src="./conversor-de-moeda/.github/conversor-de-moedas.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
