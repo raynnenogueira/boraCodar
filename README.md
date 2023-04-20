@@ -79,6 +79,13 @@
             <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/conversor-de-moedas">Conversor de Moedas</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./conversor-de-moeda/.github/conversor-de-moedas.jpg" /></a></td>
+        </tr>        
+        <tr>
+            <tr>
+            <td>09</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/clima">Página de Clima</a></td>
+            <td align="center" >
+            <a href="07"><img width="300px" src="./clima/.github/clima.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
