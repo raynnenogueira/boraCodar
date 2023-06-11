@@ -94,5 +94,12 @@
             <td align="center" >
             <a href="07"><img width="300px" src="./tela-de-login/.github/tela-de-login.jpg" /></a></td>
         </tr>
+            <tr>
+            <tr>
+            <td>10</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/kanban">Kanban</a></td>
+            <td align="center" >
+            <a href="07"><img width="300px" src="./kanban/.github/kanban.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
