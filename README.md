@@ -103,14 +103,14 @@
         <tr>
             <tr>
             <td>12</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/uploading">Cartão de Crédito</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cartao-de-credito">Cartão de Crédito</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./cartao-de-credito/.github/cartao-credito.jpg" /></a></td>
         </tr>
         <tr>
             <tr>
             <td>13</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cartao-de-credito">Componente de Upload</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/uploading">Componente de Upload</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./uploading/.github/upload.jpg" /></a></td>
         </tr>
