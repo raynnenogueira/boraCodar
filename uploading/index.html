@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="data-upload-5_48105.ico" type="image/x-icon">
+    <title>Componente de Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="app">
+        <section class="upload">
+            <i class="ph ph-cloud-arrow-up"></i>
+            <h3>Importe seus arquivos</h3>
+            <p>Arraste ou clique para fazer upload</p>
+            <input type="file">
+        </section>
+
+        <section class="files">
+            <div class="box uploading">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+
+                <div class="info">
+                    <div class="name">Curriculo.pdf</div>
+                    <div class="size">
+                        <span>10 MB /</span>
+                        <span>20 MB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="50" max="100"></progress>
+                        <span>50%</span>
+                    </div>
+                </div>
+
+                <div class="action">
+                    <i class="ph ph-x"></i>
+                </div>
+            </div>
+            <div class="box done">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+
+                <div class="info">
+                    <div class="name">README.md</div>
+                    <div class="size">
+                        <span>8 KB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="100" max="100"></progress>
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box error">
+                <div class="icon">
+                    <i class="ph-fill ph-file"></i>
+                </div>
+
+                <div class="info">
+                    <div class="name">foto-1.png</div>
+                    <div class="size">
+                        <span>3 KB</span>
+                    </div>
+                    <div class="bar">
+                        <progress value="0" max="100"></progress>
+                        <span>Error</span>
+                    </div>
+                </div>
+
+                <div class="action">
+                    <i class="ph ph-arrow-counter-clockwise"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+</html>
