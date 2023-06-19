@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-gray-50: #f8fafc;
+    --color-gray-100: #f1f5f9;
+    --color-gray-200: #e2e8f0;
+    --color-gray-300: #cbd5e1;
+    --color-gray-400: #94a3b8;
+    --color-gray-500: #64748b;
+    --color-gray-600: #475569;
+    --color-gray-700: #334155;
+    --color-gray-800: #1e293b;
+    --color-gray-900: #0f172a;
+    --color-green-100: #04d361;
+    --color-green-200: #1b873f;
+    --color-purple-100: #996dff;
+    --color-purple-200: #7c3aed;
+    --color-white: #ffffff;
+    --color-orange: #fba94c;
+}
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    background: var(--color-gray-50);
+}
+
+.container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2.4rem;
+}
+
+section {
+    width: 25.0rem;
+    margin: auto;
+    flex: 1;
+}
+
+section .inner {
+    padding: 2.4rem;
+    background-color: var(--color-white);
+    border: .1rem solid var(--color-gray-200);
+    border-radius: 1.0rem;
+}
+
+.inner p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-purple-200);
+}
+
+.price-title {
+    margin-top: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 3.0rem;
+    color: var(--color-gray-800);
+}
+
+.price {
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+    color: var(--color-gray-800);
+}
+
+.price strong {
+    font-size: 1.2rem;
+    line-height: 3.0rem;
+}
+
+button {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem .1rem;
+    width: 100%;
+    border: .1rem solid var(--color-gray-800);
+    margin-top: 1.2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    color: var(--color-gray-800);
+    cursor: pointer;
+}
+
+button.button:hover {
+    background-color: var(--color-gray-800);
+    color: var(--color-white);
+}
+
+ul {
+
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    list-style: none;
+    display: grid;
+    gap: 1.4rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+li span {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.06em;
+    color: var(--color-gray-600);
+}
+
+li i.ph-check {
+    font-size: 1.2rem;
+    color: var(--color-green-200);
+}
+
+li i.ph-info {
+    font-size: 1.2rem;
+    color: var(--color-gray-900);
+}
+
+section.ultimate {
+    margin-top: 16px;
+    position: relative;
+}
+
+section.ultimate::before {
+    content: "MAIS VANTAJOSO";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-gray-900);
+  
+    display: inline-block;
+  
+    background-color: var(--color-orange);
+    padding: 8px 16px;
+    border-radius: 6px;
+  
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    top: -17px;
+}
+
+.ultimate .inner {
+    padding-top: 2.5rem;
+    background-color: var(--color-gray-900);
+}
+
+.ultimate .title,
+.ultimate .price {
+    color: var(--color-gray-50);
+}
+
+.inner p {
+    color: var(--color-purple-100);
+}
+
+button.secondary {
+    background-color: var(--color-purple-200);
+    color: var(--color-white);
+}
+
+button.secondary:hover {
+    background-color: var(--color-purple-100);
+}
+
+.ultimate ul {
+    border-color: var(--color-gray-700);
+}
+
+.ultimate li span {
+    color: var(--color-gray-300);
+}
+
+.ultimate ul .ph-info {
+    color: var(--color-gray-500);
+}
+
+section .inner:hover {
+    border-color: var(--color-purple-100);
+}
+
+section .inner {
+    transition: border 300ms;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+section {
+    transition: transform 300ms;
+}
+
+
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+        }
