@@ -114,5 +114,11 @@
             <td align="center" >
             <a href="07"><img width="300px" src="./uploading/.github/upload.jpg" /></a></td>
         </tr>
+            <tr>
+            <td>14</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/tabela-de-precos">Tabela de Preços</a></td>
+            <td align="center">
+            <a href="02"><img width="300px" src="./tabela-de-precos/.github/tabela-de-preco.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
