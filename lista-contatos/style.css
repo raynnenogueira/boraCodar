@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+html,
+body,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #e1e1e6;
+    background-color: #1a1924;
+}
+
+header {
+    background-color: #16151e;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 40px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+header h2 {
+    font-size: 24px;
+    line-height: 23px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav ul {
+    gap: 16px;
+}
+
+nav ul li {
+    font-size: 22px;
+}
+
+form {
+    margin-top: 24px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.input {
+    gap: 10px;
+    background: #24243d;
+    border-radius: 5px;
+    padding: 16px 24px;
+}
+
+.input input {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    outline: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e1e1e6;
+}
+
+.input ion-icon {
+    font-size: 16px;
+}
+
+.input input::placeholder {
+    color: #e1e1e6;
+}
+
+.input:focus-within {
+    outline: 2px white solid;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.contacts::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+    background: #282843;
+    border-radius: 999px;
+}
+
+.letter {
+    background-color: grey;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: var(--color);
+}
+
+.purple {
+    --color: #4c1eae;
+}
+
+.green {
+    --color: #034643;
+}
+
+.pink {
+    --color: #dc677a;
+}
+
+.blue {
+    --color: #0f627b;
+}
+
+.yellow {
+    --color: #c69c05;
+}
+
+.black {
+    --color: black;
+}
+
+.gray {
+    --color: rgb(107, 102, 89);
+}
+
+.persona {
+    gap: 16px;
+}
+
+.persona img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.persona h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.persona p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #8c8cba;
+    margin-top: 4px;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+header nav, header form, .list {
+    max-width: 350px;
+    width: 100%;
+    margin-inline: auto;
+}
