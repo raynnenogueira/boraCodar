@@ -130,7 +130,7 @@
             <tr>
             <tr>
             <td>16</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/lista-contatos">Modelo de Calendario</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/calendario">Modelo de Calendario</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./calendario/.github/calendario.jpg" /></a></td>
         </tr>
