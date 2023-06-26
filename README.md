@@ -127,12 +127,19 @@
             <td align="center" >
             <a href="07"><img width="300px" src="./lista-contatos/.github/lista-contatos.jpg" /></a></td>
         </tr>
-            <tr>
+        <tr>
             <tr>
             <td>16</td>
             <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/calendario">Modelo de Calendario</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./calendario/.github/calendario.jpg" /></a></td>
+        </tr>
+        <tr>
+            <tr>
+            <td>17</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/card-personagem">Card de Personagem</a></td>
+            <td align="center" >
+            <a href="07"><img width="300px" src="./card-personagem/.github/card-personagem.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
