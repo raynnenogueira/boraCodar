@@ -141,5 +141,12 @@
             <td align="center" >
             <a href="07"><img width="300px" src="./card-personagem/.github/card-personagem.jpg" /></a></td>
         </tr>
+        <tr>
+            <tr>
+            <td>18</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/uber">Motorista de Uber</a></td>
+            <td align="center" >
+            <a href="07"><img width="300px" src="./uber/.github/uber.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
