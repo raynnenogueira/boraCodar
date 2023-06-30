@@ -148,5 +148,12 @@
             <td align="center" >
             <a href="07"><img width="300px" src="./uber/.github/uber.jpg" /></a></td>
         </tr>
+            <tr>
+            <tr>
+            <td>19</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/gallery">Gallery com Hover</a></td>
+            <td align="center" >
+            <a href="07"><img width="300px" src="./gallery/.github/gallery.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
