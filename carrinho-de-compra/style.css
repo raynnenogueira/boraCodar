@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --color-brand-color: #9333ea;
+    --color-brand-color-light: #a855f7;
+    --color-brand-color-lighter: #c084fc;
+    --color-text-color-primary: #f9fafb;
+    --color-text-color-secondary: #e4e4e7;
+    --color-text-button-color: #a1a1aa;
+    --color-stroke-color: #3f3f46;
+    --color-surface-color: #18181b;
+    --color-background-color: #09090b;
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #1c1c23;
+    color: var(--color-text-color-primary);
+}
+
+#app {
+    height: 100vh;
+    max-width: 42.8rem;
+    margin-left: auto;
+    background-color: var(--color-surface-color);
+    display: grid;
+    /* distribuir cada elemento */
+    grid-template-rows: max-content 1fr max-content;
+
+    /* centralizado ao meio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    font-size: 2rem;
+    color: var(--color-text-color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-stroke-color);
+    padding: 2.4rem 3.2rem;
+}
+
+main {
+    padding: 3.2rem;
+    display: grid;
+    place-content: start;
+    gap: 4.8rem;
+    overflow-y: scroll;
+    /* barra de rolagem */
+}
+
+.title {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    /* barrinha de rolagem com a cor cinza */
+    background-color: var(--color-stroke-color);
+    border-radius: .8rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-background-color);
+}
+
+.products {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.products img {
+    width: 10.4rem;
+    height: 10.4rem;
+    object-fit: cover;
+    border-radius: .8rem;
+}
+
+.products .title {
+    color: var(--color-text-color-secondary);
+}
+
+.preco-quant {
+    margin-top: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preco {
+    font-weight: 700;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+}
+
+.quantidade span,
+.quantidade button {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.quantidade button {
+    border-radius: .8rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: var(--color-brand-color-light);
+    font-size: 1.6rem;
+}
+
+.quantidade button.add {
+    border-color: var(--color-brand-color-light);
+}
+
+.quantidade button.add:hover {
+    background-color: var(--color-brand-color-light);
+    color: var(--color-text-color-primary);
+}
+
+.quantidade button.submit {
+    border-color: var(--color-stroke-color);
+}
+
+.quantidade button.submit:hover {
+    color: var(--color-text-color-primary);
+    border-color: var(--color-brand-color-light);
+}
+
+footer {
+    padding: 3.2rem;
+    border-top: 1px solid var(--color-stroke-color);
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.cupom {
+    margin-top: 1.6rem;
+    color: var(--color-brand-color-light);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .8rem;
+}
+
+.cupom i {
+    font-size: 2rem;
+}
+
+footer button {
+    margin-top: 3.2rem;
+    background-color: var(--color-brand-color);
+    color: var(--color-text-color-primary);
+    border: 0;
+    font-size: 2rem;
+    padding-block: 2rem;
+    width: 100%;
+    border-radius: .8rem;
+}
+
+footer button:hover {
+    background-color: var(--color-brand-color-light);
+}
+
+
+
+/* Responsivo para tela de celulares */
+@media (max-width: 600px) {
+    :root {
+        font-size: 50%;
+    }
+
+    #app {
+        max-width: 100%;
+        height: auto;
+    }
+
+    header {
+        font-size: 1.6rem;
+        padding: 1.6rem;
+    }
+
+    main {
+        padding: 1.6rem;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+
+    .products img {
+        width: 100%;
+        height: auto;
+    }
+
+    .preco-quant {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer {
+        padding: 1.6rem;
+    }
+
+    .total {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
