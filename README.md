@@ -159,7 +159,7 @@
             <td>20</td>
             <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/carrinho-de-compras">Carrinho de Compras</a></td>
             <td align="center">
-            <a href="07"><img width="300px" src="./carrinho-de-compra/.github/carrinho-de-compras.jpg" /></a></td>
+            <a href="04"><img width="300px" src="./carrinho-de-compra/.github/carrinho-de-compras.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
