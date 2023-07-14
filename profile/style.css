@@ -97,7 +97,7 @@ i {
 }
 
 
-@media (min-width: 370px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
     .profile {
       width: 90%;
       height: auto;
