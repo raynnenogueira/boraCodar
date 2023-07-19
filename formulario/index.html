@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="check-form_116472.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Multi Step</title>
+</head>
+<body>
+    
+    <main id="container">
+        <form>
+            <div class="menu">
+                <strong class="active" data-step>Contato</strong>
+                <img src="./assets/arrow-right.svg" alt="">
+
+                <strong data-step>Empresa</strong>
+                <img src="./assets/arrow-right.svg" alt="">
+
+                <strong data-step>Projeto</strong>
+            </div>
+
+            <div class="step active">
+                <div class="container">
+                    <div class="input">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Como prefere ser chamado" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="name">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="Digite seu numero de whatsapp">
+                    </div>
+
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu melhor email" required>
+                    </div>
+
+                </div>
+
+                <div class="button justify-end">
+                    <button type="button" class="btn primary" data-action="next">CONTINUAR</button>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="container">
+                    <div class="input">
+                        <label for="empresa">Nome da Empresa</label>
+                        <input type="text" name="empresa" id="empresa" placeholder="Digite o nome da sua empresa" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="Funcionarios">Número de Funcionarios</label>
+                        <input type="text" name="Funcionarios" id="Funcionarios" placeholder="Digite o numero de funcionários">
+                    </div>
+
+                    <div class="input">
+                        <label for="negocio">Sobre seu negócio</label>
+                        <textarea name="negocio" id="negocio" placeholder="Conte-nos um pouco sobre sua empresa"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="button">
+                    <button type="button" class="btn secondary" data-action="prev">VOLTAR</button>
+                    <button type="button" class="btn primary" data-action="next">CONTINUAR</button>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="container">
+                    <div class="input">
+                        <label for="projeto">Objetivos do Projeto</label>
+                        <textarea name="projeto" id="projeto" placeholder="Descreva os objetivos do seu projeto"></textarea>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button type="button" class="btn secondary" data-action="prev">VOLTAR</button>
+                    <button class="btn primary" type="submit">ENVIAR</button>
+                </div>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="script.js"></script>
+</body>
+</html>
