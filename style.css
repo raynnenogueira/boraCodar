@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* background-color: #cbc3e3; */
+    /* background: radial-gradient(135deg, #cbc3e3 60%, #fff) no-repeat; */
+    background: radial-gradient(farthest-corner at 0px 0px,
+            #fff,
+            rgb(176, 130, 176));
+    background-attachment: fixed;
+    /* height: 100vh; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    width: 120rem;
+    margin: auto;
+    font-weight: 300;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.projects-list #project {
+    width: 35rem;
+    height: 24rem;
+    position: relative;
+}
+
+#project img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    object-fit: fill;
+}
+
+/* HOVER CAPTION */
+
+.image-caption {
+    display: flex;
+    width: 35rem;
+    height: 24rem;
+    background: #cbc3e3;
+    border-radius: 1rem;
+    border: 0.2rem purple solid;
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+}
+
+#project:hover .image-caption {
+    opacity: 0.95;
+}
+
+footer {
+    height: 5rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: black;
+}
+
+/* BUTTONS */
+.link-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    place-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute; */
+    /* margin-bottom: 0.5rem; */
+}
+
+.buttons a {
+    width: fit-content;
+    padding: 1rem 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    border: 0.1rem purple solid;
+    text-decoration: none;
+
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.caption {
+    /* position: absolute; */
+    width: 95%;
+    height: 95%;
+    top: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.caption h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.caption p {
+    font-size: 1.4rem;
+    text-align: center;
+    overflow: hidden;
+    line-height: 2rem;
+}
+
+.caption p.stack {
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-buttons a:hover {
+    color: #fff;
+    font-weight: 400;
+    background-color: purple;
+    box-shadow: 0px 15px 20px rgb(250, 175, 250);
+    color: #fff;
+    transform: translateY(-0.5rem);
+}
+
+@media (max-width: 80rem) {
+    .app {
+        width: 80rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    body {
+        background: radial-gradient(farthest-corner at 0px 0px,
+                rgb(176, 130, 176),
+                #fff);
+        background-attachment: fixed;
+    }
+
+    .app {
+        width: 40rem;
+    }
+
+    .projects-list #project {
+        width: 35rem;
+        height: 30rem;
+        position: relative;
+    }
+
+    .image-caption {
+        opacity: 1;
+        width: 35rem;
+        height: 30rem;
+        background-color: transparent;
+    }
+
+    .caption {
+        position: absolute;
+        width: 95%;
+        font-weight: 400;
+        color: black;
+    }
+
+    .caption h1 {
+        text-align: left;
+    }
+
+    .caption h2 {
+        font-weight: 400;
+    }
+
+    .caption p {
+        line-height: 2.5rem;
+    }
+
+    .caption .title {
+        height: 10rem;
+        width: 20rem;
+        margin-left: 13rem;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .link-buttons a {
+        color: #fff;
+        font-weight: 400;
+        background-color: purple;
+        /* box-shadow: 0px 15px 20px rgb(250, 175, 250); */
+        color: #fff;
+        /* transform: translateY(-0.5rem); */
+    }
+
+    .link-buttons a:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    #project img {
+        width: 12rem;
+        height: 10rem;
+        border-radius: 1rem;
+        position: absolute;
+        object-fit: fill;
+        margin: 1rem;
+    }
+
+    footer {
+        font-size: 1.6rem;
+    }
+}
