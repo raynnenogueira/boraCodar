@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cardproduto">Card de Produto</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/cardeproduto">Card de Produto</a></td>
             <td align="center">
             <a href="02"><img width="300px" src="./cardeproduto/.github/cardproduto.png" /></a></td>
         </tr>
