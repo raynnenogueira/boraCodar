@@ -7,7 +7,7 @@ Desafio feito junto com a Rockseat, junto com o @maykbrito
 
 <br>
 
-<a href="https://raynnenogueira.github.io/boracodar/conversor-de-moedas/" target="_blank">Visite aqui o projeto</a>
+<a href="https://raynnenogueira.github.io/boracodar/conversor-de-moeda/" target="_blank">Visite aqui o projeto</a>
 
 <br>
 

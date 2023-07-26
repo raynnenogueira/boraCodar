@@ -76,7 +76,7 @@
         <tr>
             <tr>
             <td>08</td>
-            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/conversor-de-moedas">Conversor de Moedas</a></td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/conversor-de-moeda">Conversor de Moedas</a></td>
             <td align="center" >
             <a href="07"><img width="300px" src="./conversor-de-moeda/.github/conversor-de-moedas.jpg" /></a></td>
         </tr>        
