@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="ilustracoes_04-07_icon-icons.com_75473.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ajuste de Cores</title>
+</head>
+<body>
+    
+    <main>
+        <div class="visualization"></div>
+
+        <span>Ajuste de Cores</span>
+
+        <div class="controls">
+            <div class="hue">
+              <i class="ph-thin ph-palette"></i>
+      
+              <div>
+                <input type="range" id="hue-slider" min="0" max="360" step="1" value="0" />
+              </div>
+            </div>
+      
+            <div class="glow">
+              <i class="ph-thin ph-sun"></i>
+      
+              <div>
+                <input type="range" id="glow-slider" min="0" max="100" step="1" value="100" />
+              </div>
+            </div>
+      
+            <div class="contrast">
+              <i class="ph-thin ph-circle-half"></i>
+      
+              <div>
+                <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100" />
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+</html>
