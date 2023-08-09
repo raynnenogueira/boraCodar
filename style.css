@@ -12,7 +12,8 @@
 
 body {
     font-size: 1.6rem;
-    background: linear-gradient( #c7c6c6, rgb(185, 82, 185));
+    background: linear-gradient(white, black);
+    /* background: linear-gradient( #c7c6c6, rgb(185, 82, 185)); */
     background-attachment: fixed;
     color: black;
     font-family: 'Lato', sans-serif;
@@ -57,7 +58,7 @@ body {
     height: 24rem;
     background: #cbc3e3;
     border-radius: 1rem;
-    border: 0.2rem purple solid;
+    border: 0.2rem white solid;
     position: absolute;
     opacity: 0;
     align-items: center;
@@ -104,7 +105,7 @@ footer {
     text-transform: uppercase;
     margin: 0.2rem;
     border-radius: 1rem;
-    border: 0.1rem purple solid;
+    border: 0.1rem black solid;
     text-decoration: none;
     transition: all 0.3s ease 0s;
     display: flex;

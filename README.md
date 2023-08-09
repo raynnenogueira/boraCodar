@@ -191,5 +191,11 @@
             <td align="center">
             <a href="02"><img width="300px" src="./receita-junina/.github/receita-junina.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>26</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/pagina-404">Pagina Nao Encontrada</a></td>
+            <td align="center">
+            <a href="04"><img width="300px" src="./pagina-404/.github/pagina-404.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
