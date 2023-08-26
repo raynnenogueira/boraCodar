@@ -197,5 +197,11 @@
             <td align="center">
             <a href="04"><img width="300px" src="./pagina-404/.github/pagina-404.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>27</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/plataforma-ia">Plataforma IA</a></td>
+            <td align="center">
+            <a href="02"><img width="300px" src="./plataforma-ia/.github/plataforma-ia.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
