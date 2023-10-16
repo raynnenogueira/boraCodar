@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #9f55ff 0%, #ff4689 100%);
+}
+
+button {
+    font-family: 'Outfit', sans-serif;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    background: #1e1f28;
+    box-shadow: 0px -3px 22px 0px rgba(0,0,0.35);
+    padding: 64px 96px;
+    position: relative;
+}
+
+.cards::before {
+    content: "";
+    position: absolute;
+
+    /* BORDA DE FUNDO */
+    background: linear-gradient(120deg, #c497ff 30%, #9947ff 100%);
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 654px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+header button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #8323ff 0%, #ff2daf 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.movies{
+    display: flex;
+    gap: 36px;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 194px;
+}
+
+.title, .duration, .year, .movie button, .title>div {
+    display: flex;
+    align-items: center;
+}
+
+.info, .title { /* icone do relogio e do ano ficarem lado a lado*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.title>div {
+    color: #feea35;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.408px;
+}
+
+.title span {
+    max-width: 130px;
+    overflow: hidden; 
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+/* imagens do mesmo tamanho */
+.poster>img {
+    width: 194px;
+    height: 289px;
+}
+
+.duration, .year {
+    gap: 4px;
+    color: #888d98;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.movie button {
+    display: flex;
+    width: 194px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #2b2b37;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.movie button:hover {
+  border-radius: 0.25rem;
+  background: var(--cores-cinza-mdio, #373745);
+}
+
+/* Estilos para telas maiores, como tablets e desktops */
+@media (min-width: 768px) {
+    /* Coloque seus estilos para telas maiores aqui */
+}
+
+/* Estilos para telas menores, como celulares */
+@media (max-width: 767px) {
+    .cards {
+        padding: 24px; /* Reduza o preenchimento para telas menores */
+    }
+
+    header {
+        flex-direction: column; /* Coloque o botão abaixo do logotipo em telas menores */
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    header button {
+        padding: 12px 24px; /* Aumente o preenchimento do botão para telas menores */
+    }
+
+    .movies {
+        flex-direction: column; /* Empilhe os elementos .movie verticalmente */
+        gap: 20px; /* Adicione um espaçamento entre os elementos .movie */
+    }
+
+    .movie {
+        max-width: 100%; /* Faça com que cada .movie ocupe toda a largura da tela */
+    }
+
+    .poster>img {
+        width: 100%; /* Faça com que as imagens do pôster ocupem a largura total da tela */
+    }
+}
