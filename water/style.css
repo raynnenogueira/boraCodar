@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0e13;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 41px;
+    width: fit-content;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting span {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+#name {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.greeting span img {
+    width: 25px;
+    height: 25px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 86px;
+    height: 350px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 76.5px;
+    color: #1f2128;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+}
+
+main {
+    display: flex;
+    padding: 32px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 20px;
+    background: #7fc4ed;
+    color: #1f2128;
+}
+
+main img {
+    width: 97.515px;
+    height: 151.219px;
+}
+
+main h1 {
+    color: #1f2128;
+    text-align: center;
+
+    /* CARD */
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+output {
+    color: #4e4964;
+    text-align: right;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+}
+
+main div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+main div span {
+    color: #1f2128;
+
+    /* TITLE */
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+}
+
+.controlsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+input[type="range"] {
+    background: #322f40;
+    width: 320px;
+    height: 6px;
+    flex-shrink: 0;
+    appearance: none;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #7fc4ed;
+    cursor: pointer;
+}
+
+label {
+    color: #7fc4ed;
+
+    /* TITLE */
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+}
+
+.controls span {
+    color: #4e4964;
+    text-align: right;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+}
+
+.quantity, .goal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 9px;
+}
+
+.dailyGoal, .quantityTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hours, .minutes {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 12px 0px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #7fc4ed;
+    background: #1d1b26;
+    color: #fbf9fe;
+    text-align: center;
+
+    /* TIMER */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.96px;
+}
+
+button {
+    border-radius: 6px;
+    background: #7fc4ed;
+    display: flex;
+    width: 320px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    color: #0f0e13;
+    text-align: center;
+
+    /* TITLE */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.48px;
+    cursor: pointer;
+}
+
+.reminderContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+}
+
+.reminder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 32px;
+    border-radius: 10px;
+    background: #1d1b26;
+    box-shadow: 17px 25px 57px 0px rgba(17, 16, 24, 0.25);
+    padding: 60px;
+    width: 299px;
+    height: 254px;
+    gap: 24px;
+}
+
+.reminder span {
+    color: #7fc4ed;
+    text-align: center;
+
+    /* MODAL */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.72px;
+}
+
+#close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Define a altura da tela como 100% para centralizar verticalmente */
+        gap: 41px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content {
+        main {
+            padding: 20px;
+            gap: 20px;
+        }
+    }
+
+    .controlsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type="range"] {
+        width: 100%;
+    }
+
+    .hours, .minutes {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .reminder {
+        padding: 40px;
+        width: 240px;
+        height: 200px;
+    }
+
+    button {
+        margin-top: 20px; /* Adiciona uma margem superior para mover o botão para baixo apenas em telas menores */
+    }
+}
