@@ -1,0 +1,305 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(80,77,77);
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    width: 360px;
+    height: 800px;
+}
+
+.image {
+    position: absolute;
+    margin: 40px 40px;
+    width: 280px;
+    height: 280px;
+    z-index: 1;
+}
+
+.image img {
+    width: 231px;
+    height: 230px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 360px;
+    height: 696px;
+    margin-top: 104px;
+    border-radius: 32px 32px 32px 32px;
+    background: #fdfdfd;
+}
+
+.box {
+    width: 296px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 240px;
+}
+
+.salad {
+    width: 188px;
+    height: 32px;
+    margin: 0;
+}
+
+.salad h1 {
+    color: #242424;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    width: 296px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.protein, .carbohydrates, .sugar, .fat {
+    width: 296px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
+.protein-top {
+    width: 296px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: auto;
+}
+
+.info5, .info6 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+}
+
+.protein-button {
+    width: 296px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.energia, .porcao {
+    width: 136px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.info1, .info3 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+}
+
+.info2, .info4 {
+    width: auto;
+    height: 24px;
+    margin: 0;
+}
+
+.salada-information {
+    width: 296px;
+    height: 192px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6 {
+    width: 100%;
+    height: 8px;
+}
+
+.p1, .p2, .p3 {
+    border-radius: 80px;
+    background: #3bab1e;
+}
+
+.p4, .p5, .p6 {
+    border-radius: 80px;
+    background: #b1dda5;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 296px;
+    height: 56px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    background: #3bab1e;
+    box-shadow: 0px 8px 24px 0px rgba(59,171,30,0.2);
+    padding: 16px;
+}
+
+button {
+    width: auto;
+    height: 24px;
+    color: var(--text-cta, #FDFDFD);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 360px;
+    height: 704px;
+    border-radius: 32px 32px 0px 0px;
+    background: #fdfdfd;
+    box-shadow: 0px -8px 40px 0px rgba(0,0,0,0.25);
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+}
+
+.details {
+    margin-top: 16px;
+}
+
+.details button {
+    width: 80px;
+    height: 8px;
+    border-radius: 80px;
+    background: var(--surface-element, #B1DDA5);
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 0px #53744a;
+}
+
+.details button:active {
+    transform: translateY(-2px);
+}
+
+.info7 p {
+    color: #242424;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.table {
+    border: 1px solid black;
+    width: 299px;
+    height: 577px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0;
+    margin-bottom: 124px;
+}
+
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8, .table9, .table10, .table11, .table12, .table13, .table14, .table15, .table16, .table17 {
+    width: 100%;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: auto;
+}
+
+.info8 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+    color: #242424;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.info9 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+    color: #242424;
+    text-align: right;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-right: 0;
+}
+
+.info10, .info12, .info14, .info16 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+    color: #242424;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 16px;
+}
+
+.info11, .info13 {
+    width: auto;
+    height: 16px;
+    margin: 0;
+    color: #242424;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    margin-left: auto;
+}
+

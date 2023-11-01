@@ -227,5 +227,11 @@
             <td align="center">
             <a href="02"><img width="300px" src="./water/.github/water.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>32</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/tabela-nutricional">Tabela Nutricional</a></td>
+            <td align="center">
+            <a href="04"><img width="300px" src="./tabela-nutricional/.github/tabela-nutricional.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
