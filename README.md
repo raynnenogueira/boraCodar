@@ -239,5 +239,11 @@
             <td align="center">
             <a href="02"><img width="300px" src="./app-sono/.github/app-sono.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>34</td>
+            <td><a href="https://github.com/raynnenogueira/boracodar/tree/main/avaliar-produto">Avaliar Produto</a></td>
+            <td align="center">
+            <a href="04"><img width="300px" src="./avaliar-produto/.github/avaliar-produto.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
