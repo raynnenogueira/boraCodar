@@ -22,5 +22,5 @@ Desafio feito junto com a Rockseat, junto com o @maykbrito
 <br>
 
 <p text-align="center">
-  <img alt="" src='./.github/app-sono.jpg' width="100%">
+  <img alt="" src='./.github/avaliar-produto.jpg' width="100%">
 </p>
